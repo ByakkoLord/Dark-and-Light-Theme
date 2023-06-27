@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <title>Dark and Light Theme</title>
+</head>
+<body>
+    <i id="altmode" onclick="alternate()" class="fa-solid fa-sun fa-2x1"></i>
+    <main>
+        
+        <section id="side1">
+            <article id="clock">
+                <div class="blocks">
+                    <h3 id="hours">00</h3>
+                    <span>Hours</span>
+                </div>
+                <div class="blocks">
+                    <h3 id="minutes">00</h3>
+                    <span>Minutes</span>
+                </div>
+                <div class="blocks">
+                    <h3 id="seconds">00</h3>
+                    <span>Seconds</span>
+                </div>
+            </article>
+        </section>
+
+        <section id="side2">
+            <form id="login">
+                <div class="textbox">
+                    <label for="username">Username</label><input required type="text" id="username">
+                </div>
+                <div class="textbox">
+                    <label for="password">Password</label><input type="text" id="password">
+                </div>
+                <input id="submit-btn" type="button" value="Login">
+            </form>
+        </section>
+
+        <section id="congra">
+            <h3>
+                You have been logged in
+            </h3>
+            <i id="loged_icon" class="fa-solid fa-circle-check fa-bounce"></i>
+            <p>
+                Click the button below to continue browsing
+            </p>
+            <input id="close_login" type="button" value="Close">
+        </section>
+    </main>
+</body>
+</html>
+
